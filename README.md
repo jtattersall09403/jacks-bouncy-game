@@ -4,7 +4,7 @@ A simple but addictive physics-based browser game built with Matter.js.
 
 ## Game Description
 
-In Jack's Bouncy Disco Game, you control a ball using the arrow keys, navigating through a field of bouncing hazard balls to reach a target. The game features increasing difficulty with each level:
+In Jack's Bouncy Game, you control a ball using the arrow keys, navigating through a field of bouncing hazard balls to reach a target. The game features increasing difficulty with each level:
 
 - **Objective**: Move your ball to the target to complete each level
 - **Controls**: Arrow keys to move your ball
@@ -43,11 +43,7 @@ In Jack's Bouncy Disco Game, you control a ball using the arrow keys, navigating
 - Add physics for collisions between hazard balls (so they bounce off each other)
 - Add particle effects for collisions between hazard balls
 
-### Phase 6: Final Touches
-- Add background 8-bit disco-style game music (sourced royalty-free online)
-- Implement sound on/off button
-
-### Phase 7: Deployment
+### Phase 6: Deployment
 - Deploy the game online
 
 ## Technologies
