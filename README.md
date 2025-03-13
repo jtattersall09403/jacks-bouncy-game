@@ -1,4 +1,4 @@
-# Jack's Bouncy Game
+# Jack's Bouncy Bounce Game
 
 A simple but addictive physics-based browser game built with Matter.js.
 
@@ -6,7 +6,7 @@ A simple but addictive physics-based browser game built with Matter.js.
 
 ## Game Description
 
-In Jack's Bouncy Game, you control a ball using the arrow keys, navigating through a field of bouncing hazard balls to reach a target. The game features increasing difficulty with each level:
+In Jack's Bouncy Bounce Game, you control a ball using the arrow keys, navigating through a field of bouncing hazard balls to reach a target. The game features increasing difficulty with each level:
 
 - **Objective**: Move your ball to the target to complete each level
 - **Controls**: Arrow keys to move your ball
