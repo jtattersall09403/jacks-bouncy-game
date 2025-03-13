@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack's Bouncy Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <h1>Jack's Bouncy Game</h1>
+            <div class="game-description">
+                <p>Navigate your ball to the target while avoiding hazard balls.</p>
+                <div class="controls-info">
+                    <div class="control-item">
+                        <div class="key-group">
+                            <div class="key"><i class="fas fa-arrow-up"></i></div>
+                            <div class="key"><i class="fas fa-arrow-down"></i></div>
+                        </div>
+                        <span>Move & Speed up hazards</span>
+                    </div>
+                    <div class="control-item">
+                        <div class="key-group">
+                            <div class="key"><i class="fas fa-arrow-left"></i></div>
+                            <div class="key"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                        <span>Move & Reverse hazards</span>
+                    </div>
+                </div>
+            </div>
+            <button id="start-button" class="game-button">Start Game</button>
+        </div>
+
+        <!-- Game UI -->
+        <div id="game-ui">
+            <div id="level-counter">Level: 1</div>
+        </div>
+
+        <!-- Game Canvas Container -->
+        <div id="game-canvas-container">
+            <!-- Matter.js will render the game here -->
+        </div>
+
+        <!-- Level Complete Screen -->
+        <div id="level-complete" class="message hidden">
+            <div class="message-content">
+                <h2>Level Complete!</h2>
+                <div class="level-stats">
+                    <div class="stat">Level: <span id="completed-level">1</span></div>
+                </div>
+                <div class="continue-prompt">Press SPACE to continue</div>
+            </div>
+        </div>
+
+        <!-- Game Over Screen -->
+        <div id="game-over" class="message hidden">
+            <div class="message-content">
+                <h2>Game Over!</h2>
+                <div class="level-stats">
+                    <div class="stat">Final Level: <span id="final-level">1</span></div>
+                </div>
+                <div class="continue-prompt">Press SPACE to restart</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sound effects -->
+    <audio id="sound-target" src="sounds/target.mp3" preload="auto"></audio>
+    <audio id="sound-hazard" src="sounds/hazard.mp3" preload="auto"></audio>
+    <audio id="sound-reverse" src="sounds/reverse.mp3" preload="auto"></audio>
+    <audio id="sound-speedup" src="sounds/speedup.mp3" preload="auto"></audio>
+
+    <!-- Matter.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    
+    <!-- Game scripts -->
+    <script src="js/game.js"></script>
+</body>
+</html> 
