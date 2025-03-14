@@ -46,10 +46,10 @@ const maxHazardSpeed = 40; // Maximum speed cap for hazards
 let currentHazardSpeed = initialHazardSpeed;
 
 // Safety distances
-const MIN_PLAYER_TARGET_DISTANCE = 250; // Minimum distance between player and target
-const MIN_PLAYER_HAZARD_DISTANCE = 600; // Minimum distance between player and hazards
-const MIN_TARGET_HAZARD_DISTANCE = 200; // Minimum distance between target and hazards
-const MIN_HAZARD_HAZARD_DISTANCE = 100; // Minimum distance between hazards
+const MIN_PLAYER_TARGET_DISTANCE = 400; // Minimum distance between player and target
+const MIN_PLAYER_HAZARD_DISTANCE = 100; // Minimum distance between player and hazards
+const MIN_TARGET_HAZARD_DISTANCE = 10; // Minimum distance between target and hazards
+const MIN_HAZARD_HAZARD_DISTANCE = 10; // Minimum distance between hazards
 
 // Initialize the game
 function init() {
