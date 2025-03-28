@@ -1,6 +1,6 @@
 # Jack's Bouncy Bounce Game
 
-A simple but addictive physics-based browser game built with Matter.js.
+A simple but addictive physics-based browser game built with Matter.js. Play here! [https://jtattersall09403.github.io/jacks-bouncy-game/](https://jtattersall09403.github.io/jacks-bouncy-game/)
 
 ![Game Screenshot](assets/game-screenshot.png)
 
